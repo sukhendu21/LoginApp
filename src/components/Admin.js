@@ -88,7 +88,7 @@ class AdminComponent extends Component {
 
                   <button className="btn btn-primary offset-5" type="submit" disabled={!this.state.formValid.buttonActive} >Login </button>
               </form><br />
-              <div className="text-center text-info">Only For Admin Login </div>
+              <div className="text-center text-info">For Admin Login </div>
               <span className={'text-danger text-center'}>{this.state.errorMessage}</span>
         </div>
       </React.Fragment>
